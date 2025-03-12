@@ -29,6 +29,9 @@ $(document).ready(function () {
     .catch(function (err) {
       alert(err.message);
       $("#profileName").text("Usuário não encontrado");
-      $("#profileAvatar").attr("src", "link_para_imagem_de_erro.png");
+      $("#profileAvatar").attr(
+        "src",
+        "https://www.freeiconspng.com/thumbs/error-icon/error-icon-32.png"
+      );
     });
 });
